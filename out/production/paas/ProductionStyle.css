@@ -1,0 +1,50 @@
+:root {
+    --darkest: #2f4263;
+}
+/*    --dark: #415780;*/
+/*    --medium: #627ba8;*/
+/*    --light: #c7d7f2;*/
+/*}*/
+
+
+
+#tabPane{
+    -fx-background-color: #2f4263;
+}
+#background{
+    -fx-background-color: #415780;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #415780;
+    -fx-opacity: 20;
+}
+
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+.tab-pane .tab
+{
+    -fx-background-color: #627ba8;
+}
+
+.tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #c7d7f2;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.Label{
+    -fx-text-fill: white;
+}
+
+.scroll-pane > .viewport{
+    -fx-background: transparent;
+}
+.scroll-pane {
+    -fx-background: #2f4263;
+    -fx-border-color: #2f4263;
+}
+
+
